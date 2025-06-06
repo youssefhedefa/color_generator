@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class ColorGeneratorProvider extends ChangeNotifier{
+class ColorGeneratorProvider extends ChangeNotifier {
   final Random _random = Random();
   Color _backgroundColor = Colors.white;
   Color _textColor = Colors.black;
@@ -28,5 +28,4 @@ class ColorGeneratorProvider extends ChangeNotifier{
     }
     notifyListeners();
   }
-
 }
