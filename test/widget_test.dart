@@ -11,7 +11,6 @@ void main() {
       // Verify the initial state of the app.
       final initialContainer = tester.widget<AnimatedContainer>(find.byType(AnimatedContainer));
       final initialBackgroundColor = (initialContainer.decoration as BoxDecoration).color;
-      final initialTextColor = (tester.firstWidget(find.byType(AnimatedDefaultTextStyle)) as AnimatedDefaultTextStyle).style.color;
 
       // Simulate a tap on the GestureDetector.
       await tester.tap(find.byType(GestureDetector));
