@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_task/color_generator_app.dart';
+import 'package:test_task/app/test_task_app.dart';
 
 void main() {
-  runApp(const ColorGeneratorApp());
+  runApp(const TestTaskApp());
 }
