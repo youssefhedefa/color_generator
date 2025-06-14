@@ -26,10 +26,7 @@ class HomeView extends StatelessWidget {
                   child: AnimatedDefaultTextStyle(
                     duration: const Duration(milliseconds: 200),
                     curve: Curves.easeInOut,
-                    style: TextStyle(
-                      fontSize: 30,
-                      color: provider.textColor,
-                    ),
+                    style: TextStyle(fontSize: 30, color: provider.textColor),
                     child: const Text(AppStrings.helloThere),
                   ),
                 ),
